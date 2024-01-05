@@ -1,0 +1,49 @@
+.pos{
+    height: 600px;
+    width: 950px;
+    border: 3px solid black;
+}
+.div{
+    height:300px;
+    width: 225px;
+    border: 2px solid black;
+    float: left;
+}
+.div1{
+    height:300px;
+    width: 225px;
+    border: 2px solid black;
+    float: left;
+}.div2{
+    height:300px;
+    width: 225px;
+    border: 2px solid black;
+    float: left;
+}.div3{
+    height:300px;
+    width: 259  px;
+    border: 2px solid black;
+    float: right;
+}
+.div4{
+    height:300px;
+    width: 225px;
+    border: 2px solid black;
+    float: left;
+}
+.div5{
+    height:300px;
+    width: 225px;
+    border: 2px solid black;
+    float: right;
+}.div6{
+    height:295px;
+    width: 225px;
+    border: 2px solid black;
+    float: left;
+}.div7{
+    height:290px;
+    width: 259  px;
+    border: 2px solid black;
+    float: right;
+}

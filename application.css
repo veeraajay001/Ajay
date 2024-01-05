@@ -1,0 +1,174 @@
+
+        .R{
+            height: 25px;
+            width: 1265px;
+            background-color: aliceblue;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .R1{
+            margin: 2px;;
+            background-color: lawngreen;
+            float: left;
+            padding: 3px;
+            margin-left: 400px;
+            border: none;
+        }
+        .R2{
+            margin: 2px;;
+            background-color:aqua;
+            float: left;
+            padding: 3px;
+            border: none;
+        }
+        .R3{
+            margin: 2px;;
+            background-color:aqua;
+            float: left;            
+            padding: 3px;
+            border: none;
+            
+        }
+        .R4{
+            margin: 2px;;
+            background-color: aqua;
+            float: left;
+            padding: 3px;
+            border: none;
+        }
+        .R5{
+            margin: 2px;;
+            background-color:red;
+            float: left;
+            padding: 3px;
+            border: none;
+        }
+        .R6{
+            margin-left:50px;
+            background-color:rgb(38, 100, 200);
+            border: none
+        }
+        .R7{
+            background-color: white;
+            margin-left: 1px;
+            border-color:aqua
+        }
+        .A{
+            height: 500px;
+            width: 250px;
+            margin: 20px;
+            padding-top: 20px;
+            background-color:wheat;
+        }
+        img{
+          height: 100px;
+          width: 100px;
+          border-radius: 50px;
+        }
+        .A1{
+            height: 100px;
+            width: 100px;
+            border:3px solid blue;
+            border-radius: 50px;
+
+        }
+        h4{
+            margin: 5px;
+        }
+        h6{
+            margin:3px;
+        }
+        h1{
+            padding: 30px;
+            border-bottom: 1px solid black;
+        }
+        h2{
+            border-bottom: 1px solid black;
+        }
+        .a{
+            margin-left: 20px;
+            margin-right:20px ;
+            color:black;
+            display: inline;
+        }   
+        .b{
+            margin-left: 20px;
+            margin-right: 100px   ;
+            color:black;
+            display: inline;
+        }
+        .M{
+                height: 300px;
+                width: 400px;
+                margin: 20px;
+                margin-right: 550px;
+                margin-bottom: 20px;
+                background-color:wheat;
+                float: right;
+          }
+          .M1{
+            margin: 10px;
+          }
+          .t{
+            padding: 2px;
+            margin: 5px;
+            margin-left: 50px;
+            margin-bottom: 10px;
+          } 
+          .t1{
+            padding: 2px;
+            margin-left: 80px;
+            margin-bottom: 10px;
+            
+          } 
+          .t2{
+            padding: 2px;
+            margin-left: 78px;
+            margin-bottom: 10px;
+          }        
+          .t3{
+            padding: 2px;
+            margin-left: 72px;
+            margin-bottom: 10px;
+          }        
+          .t4{
+            padding: 2px;
+            margin-left: 67px;
+            margin-bottom: 10px;
+          }  
+          .R8{
+            margin-left: 120px;;
+            background-color:lightsteelblue;
+            float: left;
+            border: none
+          }   
+          .J{
+                height: 300px;
+                width: 400px;
+                margin-right: 550px;
+                background-color:wheat;
+                float: right;
+            
+          }  
+          .r1{
+            padding: 2px;
+            margin-bottom: 10px;
+            
+          } 
+          .r2{
+            padding: 2px;
+            margin-bottom: 10px;
+          }        
+          .r3{
+            padding: 2px;
+            margin-bottom: 10px;
+          }        
+          .r4{
+            padding: 2px;
+            margin-bottom: 10px;
+            -ms-progress-appearance: ring;
+          }   
+       
+       
+
+
