@@ -1,0 +1,59 @@
+.part{
+    height: 600px;
+    width: 900px;
+    background-color: lightblue;
+    position: relative;
+    left: 150px;
+}
+.part1{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+}
+.part2{
+     height: 250px;
+    width: 250px;
+    background-color: pink;
+    float: left;
+    margin: 20px;  
+}
+.part3{
+    height: 250px;
+   width: 250px;
+   background-color: lightsalmon;
+   float: left;
+   margin: 20px;  
+}
+.h1{
+    position: relative;
+    
+    font-size: 25px;
+    font-family: cursive;
+}
+.h2{
+    font-size: 15px;
+    position: relative;
+   
+}
+button{
+    padding: 5px;
+    background-color: purple;
+    border: none;
+    color: white;
+    position: relative;
+    margin: 10px;
+    
+}
+.h3{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 10px; 
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}

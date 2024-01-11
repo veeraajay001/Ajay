@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .one{
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            transform: rotate3d(180deg);
+            transition: all 3s;
+            float: left;
+        }
+        .one:hover{
+            background-color: green;
+            border-radius:100px ;
+            margin: 50px;
+            border: 2px solid black;
+
+        }
+        .two{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            transform: rotate3d(180deg);
+            transition-timing-function: ease-in-out; 
+            float: left;
+           
+        }
+        .two:hover{
+            background-color: blueviolet;
+            border-radius:100px ;
+            margin: 50px;
+            border: 2px solid black;
+            transition-delay: 3s;
+            transition-duration: 4s;
+           
+        }
+        h1{
+            color: white;
+            margin-top: 50px;
+            font-size: 19px;
+        }
+    </style>
+</head>
+<body>
+    <div class="one"><center><h1>Transition:All</h1></center></div>
+    <div class="two"></div>
+</body>
+</html>

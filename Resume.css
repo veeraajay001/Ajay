@@ -1,0 +1,161 @@
+.div{
+    height: 800px;
+    width: 600px;
+    background-color: wheat;
+}
+.div1{
+    height: 800px;
+    width: 250px;
+    background-color: darkslategray;
+    position: relative;
+    right: 175px;
+}
+.div2{
+    height: 800px;
+    width: 350px;
+    background-color: aliceblue;
+    position: relative;
+    left: 250px;
+    bottom: 460px;
+    
+}
+.div3{
+    height: 100px;
+    width: 500px;
+    background-color: yellow;
+    position: relative;
+    top: 60px;
+    right: 150px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border: 10px solid white;
+    position: relative;
+    right: 200px;
+    bottom: 130px;
+}
+.h1{
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.i1{
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+    padding: 5px;
+    position: relative;
+    top: 240px;
+    right: 40px;
+}
+.h2{
+    position: relative;
+    top: 210px;
+    left: 30px;
+    color: white;
+    font-size: 15px;
+}
+.i2{
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+    padding: 5px;
+    position: relative;
+    top: 200px;
+    right: 40px;
+}
+.h3{
+    position: relative;
+    left: 30px;
+    bottom: 25px;
+    color: white;
+    font-size: 13px;
+}
+.i3{
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+    padding: 5px;
+    position: relative;
+    top: 200px;
+    right: 40px;
+}
+.h4{
+    position: relative;
+    bottom: 25px;
+    left: 30px;
+    color: white;
+    font-size: 15px;
+}
+.i4{
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+    padding: 5px;
+    position: relative;
+    top: 200px;
+    right: 40px;
+}
+.h5{
+    position: relative;
+    bottom: 25px;
+    left: 30px;
+    color: white;
+    font-size: 13px;
+}
+.h6{
+    position: relative;
+    top: 200px;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+    border-bottom: 2px solid yellow;
+}
+.h7{
+    position: relative;
+    top: 200px;
+    left: 20px;
+    font-size: 15px;
+    color: white;
+}
+.h8{
+    position: relative;
+    top: 200px;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+    border-bottom: 2px solid yellow;
+}
+.h9{
+    position: relative;
+    top: 200px;
+    left: 20px;
+    font-size: 15px;
+    color: white;
+}
+.div4{
+    height: 590px;
+    width: 350px;
+    background-color: honeydew;
+    position: relative;
+    top: 100px;
+}
+.h10{
+        position: relative;
+        top: 10px;
+        margin: 10px;   
+        font-size: 20px;
+        border-bottom: 2px solid green;
+}
+.h11{
+    position: relative;
+    top: 20px;
+    right: 85px;
+    font-size: 20px;
+}
+.h12{
+    position: relative;
+    bottom: 5px;font-size: 15px;
+}

@@ -1,0 +1,197 @@
+.main{
+    height: 700px;
+    width: 1200px;
+    background-color:white
+    
+}
+h3{
+    margin-left: 40px;
+
+}
+.port{
+    height: 600px;
+    width: 500px;
+    background-color: white;  
+    float: left;
+    margin-left: 30px;
+}
+.port1{
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    float: left;
+
+}
+.a{
+    position: relative;
+    left: 40px;
+}
+.b{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 183px;
+}
+.c{
+    position: relative;
+   right: 415px
+}
+.d{
+    width: 430px;
+    padding: 10px;
+    position: relative;
+    left: 40px;
+}
+.e{
+   width: 308px;
+   padding: 10px;
+   position: relative;
+   right: 05px;
+   bottom: 59px;
+   left: 163px;
+}.f{
+    width: 100px;
+    margin: 20px;
+    position: relative;
+    left: 20px;
+    padding:10px ;
+}
+.g{
+    position: relative;
+    right: 125px;
+}
+.h{
+    position: relative;
+    right: 415px;
+    bottom: 40px;
+}
+.i{
+    position: relative;
+    bottom: 40px;
+    left: 40px;
+    padding: 10px;
+    width: 430px;
+}
+.j{
+    width: 200px;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+}
+.k{
+    position: relative;
+    right: 180px;
+    bottom: 20px;
+}
+.k1{
+    position: relative;
+    right: 160px;
+    bottom: 20px;
+}
+.l{
+    width: 180px;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+    left: 40px
+
+}
+.port2{
+    height: 30px;
+    width: 450px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    position: relative;
+    left: 40px;
+}
+.port5{
+    height: 30px;
+    width: 450px;
+    border-radius: 5px;
+    background-color:darkblue;
+    color: white;
+    position: relative;
+    margin: 10px;
+    left: 30px;
+}
+.port6{
+    height: 30px;
+    width: 450px;
+    border-radius: 5px;
+    background-color:lightskyblue;
+    color: white;
+    position: relative;
+    left: 40px;
+}
+.a1{
+    position: relative;
+    top: 5px;
+}
+.a2{
+    position: relative;
+    top: 5px;
+    right: 8px;
+}
+#a2{
+    height: 3px;
+    width:190px;
+    background-color: lightgray;
+    position: relative;
+    left: 60px;
+    top: 28px;
+   
+}
+#a3{
+    height: 3px;
+    width:190px;
+    background-color: lightgray;
+    position: relative;
+    left: 270px;
+    bottom: 25px;
+}
+#p3{
+    position: relative;
+    left: 255px;
+    font-family: "inter";
+}
+.h1{
+    font-size: 15px;
+    position: relative;
+    left: 130px;
+}
+h2{
+    font-size: 15px;
+    position: relative;
+    left: 280px;
+    bottom: 29px;
+    color: blue;
+}
+img{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    top: 50px;
+    left: 0px;
+
+}
+.h2{
+    position: relative;
+    top: 30px;
+}
+p{
+    font-style: italic;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+@media screen and (min-width:100px) and (max-width:600px) {
+    .port1{
+       
+        position: relative;
+        top: 500px;
+        right:500px;
+    }
+    
+}

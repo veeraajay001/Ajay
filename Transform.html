@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        .one{
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            margin: 20px;
+            float: left;    
+        }
+        .one:hover{
+           transform:translate(80px);  
+        }
+        .two:hover{
+           transform:translatey(80px);   
+        }
+        .two{
+            height: 200px;
+            width: 200px;
+            background-color:red;
+            margin: 20px;
+            float: left;
+           
+        }
+        .three{
+            height: 200px;
+            width: 200px;
+            background-color: orange;
+            margin: 20px;
+            float: left;
+            
+        }
+        .three:hover{
+           transform:translatex(80px);
+        }
+        .four{
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            margin: 20px;
+            float: left;
+        }
+        .four:hover{
+            transform: rotate(60deg);
+            transform: rotate(-80deg);
+        }
+        .five{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            margin: 20px;
+            float: left;
+        }
+        .five:hover{
+            transform: rotatex(-60deg);
+        }
+        .six{
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+            margin: 20px;
+            float: left;
+        }
+        .six:hover{
+            transform: rotatey(70deg);
+        }
+        .seven{
+            height: 200px;
+            width: 200px;
+            background-color:lightskyblue;
+            margin: 20px;
+            float: left;
+        }
+        .eight{
+            height: 200px;
+            width: 200px;
+            background-color:aqua;
+            margin: 20px;
+            float: left;
+        }
+        .nine{
+            height: 200px;
+            width: 200px;
+            background-color:goldenrod;
+            margin: 20px;
+            float: left;
+        }
+        .seven:hover{
+            transform: scale(2,3);
+        }
+        .eight:hover{
+            transform: scalex(3);
+        }
+        .nine:hover{
+            transform: scaley(3);
+        }
+        h1{
+            color: white;
+        }
+        .ten{
+             height: 200px;
+            width: 200px;
+            background-color:bisque;
+            margin: 20px;
+            float: left;
+        }
+        .ten:hover{
+            transform: skew(50deg);
+        }
+        .eleven{
+             height: 200px;
+            width: 200px;
+            background-color:gray;
+            margin: 20px;
+            float: left;
+        }
+        .eleven:hover{
+            transform: skewx(40deg);
+        }
+        .twleve{
+             height: 200px;
+            width: 200px;
+            background-color:greenyellow;
+            margin: 20px;
+            float: left;
+        }
+        .twleve:hover{
+            transform: skewy(40deg);
+        }
+        .thriteenth{
+            height: 200px;
+            width: 200px;
+            background-color:royalblue;
+            margin: 20px;
+            float: left;
+        }
+        .thriteenth:hover{
+            transform: matrix(1,2,3,4,5,6);
+        }
+        .fourteenth{
+            height: 200px;
+            width: 200px;
+            background-color:rosybrown;
+            margin: 20px;
+            float: left;
+        }
+        .fourteenth:hover{
+            transform: translate3d(10px,20px,10px);
+        }
+    </style>
+</head>
+<body>
+    <center><h2>Transform in css</h2></center><hr>
+    <div class="one"><h1>Transalte</h1></div>
+    <div class="two"><h1>TransalteX</h1></div>
+    <div class="three"><h1>TransalteY</h1></div>
+    <div class="four"><h1>Rotate</h1></div>
+    <div class="five"><h1>Rotatex</h1></div>
+    <div class="six"><h1>RotateY</h1></div>
+    <div class="seven"><h1>Scale</h1></div>
+    <div class="eight"><h1>ScaleX</h1></div>
+    <div class="nine"><h1>ScaleY</h1></div>
+    <div class="ten"><h1>Skew</h1></div>
+    <div class="eleven"><h1>SkewX</h1></div>
+    <div class="twleve"><h1>SkewY</h1></div>
+    <div class="thriteenth"><h1>Matrix</h1> <h3 style="color:white">matrix[scalex(),Skewy(),<br>skewx(),
+        scaley(),<br>transaltex(),transaltey()]</h3></div>
+        <div class=" fourteenth"><h1>3d Transalte</h1></div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+.R{
+    height: 25px;
+    width: 1265px;
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.R1{
+    margin: 2px;;
+    background-color: lawngreen;
+    float: left;
+    padding: 3px;
+    margin-left: 400px;
+    border: none;
+}
+.R2{
+    margin: 2px;;
+    background-color:aqua;
+    float: left;
+    padding: 3px;
+    border: none;
+}
+.R3{
+    margin: 2px;;
+    background-color:aqua;
+    float: left;            
+    padding: 3px;
+    border: none;
+    
+}
+.R4{
+    margin: 2px;;
+    background-color: aqua;
+    float: left;
+    padding: 3px;
+    border: none;
+}
+.R5{
+    margin: 2px;;
+    background-color:red;
+    float: left;
+    padding: 3px;
+    border: none;
+}
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    position: relative;
+    right: 70px;
+    top: 20px;
+    border: none;
+}
+.A{
+    height: 400px;
+    width: 250px;
+    background-color:aquamarine;
+    margin: 20px;
+    position: relative;
+    top: 20px;
+    right:400px;
+    float: left;
+}
+.A1{
+    height: 400px;
+    width: 250px;
+    background-color: aquamarine;
+    margin: 20px;
+    float: left ;
+    top: 20px;
+    position: relative;
+    right: 400px;
+
+}
+.A2{
+    height: 400px;
+    width: 250px;
+    background-color: aquamarine;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    float: left;
+    top: 20px;
+    position: relative;
+    left: 300px;
+
+}
+.A3{
+    height: 400px;
+    width: 250px;
+    background-color: aquamarine;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    float: left ;
+    top: 20px;
+    position: relative;
+    left: 300px;
+
+}
+h4{
+    position: relative;
+    bottom: 70px;
+    left: 100px;
+    bottom: 330px;
+}
+.h1{
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color: blue;
+    position: relative;
+    left: 40px;
+    bottom :310px;
+    
+}
+h2{
+    font-size: 12px;
+    position: relative;
+    left: 60px;
+    bottom: 345px;
+    
+    
+}
+.sub{
+    width: 0px;
+    height:270px;
+    border: 2px solid black;
+    position: relative;
+    left: 45px;
+    top: 20px;
+
+}

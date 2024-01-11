@@ -1,0 +1,154 @@
+.one{
+    height: 600px;
+    width: 1220px;
+    margin: 20px;
+    border: 2px solid black;
+}
+h3{
+    margin: 40px;
+}
+.two{
+    height: 370px;
+    width: 1000px;
+    background-color:lightblue;
+    position: relative;
+    left: 100px;
+}
+.three{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 15px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+i{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 8px;
+    top: 8px;
+}
+h1{
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+
+}
+.a{
+    
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+.b{
+    position: relative;
+    left: 60px;
+    top: 30px;
+}
+.c{
+    position: relative;
+    left: 220px;
+    top: 30px;
+}
+.d{
+    position: relative;
+    top: 60px;
+    right: 140px;
+}
+.e{
+    position: relative;
+    left :30px;
+    top: 70px;
+    width: 350px;
+}
+.f{
+    position: relative;
+    top: 100px;
+    right: 330px;
+}
+.g{
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+button{
+    height: 35px;
+    width: 100px;
+    font-size: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    position: relative;
+    left: 30px;
+    top: 100px;
+}
+.four{
+    height: 370px;
+    width: 450px;
+
+}
+.h{
+    position: relative;
+    height: 370px;
+    width: 500px;
+    left: 500px;
+    bottom: 240px;
+}
+.h1{
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+
+}
+.i{
+    font-size: 10px;
+    position: relative;
+    left: 80px;
+}
+.five{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 15px;
+    position: relative;
+    left: 350px;
+    bottom: 80px;
+}
+.i1{
+    font-size: 10px;
+    position: relative;
+    left: 330px;
+    bottom: 90px;
+}
+.six{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 15px;
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+}
+.i2{
+    font-size: 10px;
+    position: relative;
+    left: 550px;
+    bottom: 160px;
+}
+.seven{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 15px;
+    position: relative;
+    left: 850px;
+    bottom: 220px;
+}
+.i3{
+    font-size: 10px;
+    position: relative;
+    left: 800px;
+    bottom: 230px;
+}

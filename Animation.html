@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        #one{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            position: relative;
+            animation-name: Babai;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+            animation-delay: 2s;
+            animation-direction:normal;
+        }
+        @keyframes Babai {
+           /* from{
+                background-color: aqua;
+            }
+            to{
+                background-color: blueviolet;
+                border-radius: 100px;
+                
+            }*/
+            0%{
+                background-color: blue;top: 0px;left: 250px;
+            }
+            25%{
+                background-color: darkgreen;top:0px;right: 250px;
+            }
+            50%{
+                background-color: darkred;right: 350px;top: 100px;
+            }
+            75%{
+                        background-color: aqua;right: 350px;top: 100px;
+            }
+            100%{
+                background-color: darkcyan;top: 400px;right: 350px;
+            }
+        }
+        h1{
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div id="one"><center><h1>Animation</h1></center></div>
+</body>
+</html>

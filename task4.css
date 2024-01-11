@@ -1,0 +1,81 @@
+.part{
+    height: 400px;
+    width: 940px;
+    background-color: antiquewhite;
+    position: relative;
+    left: 150px;
+    top: 90px;
+}
+.part1{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+.part2{
+    height: 300px;
+    width: 250px;
+    background-color: White;
+    border-radius: 20px;
+   float: right;
+   position: relative;
+    right: 340px;
+    bottom: 260px;
+}
+.part3{
+    height: 300px;
+    width: 250px;
+    background-color: White;
+    border-radius: 20px;
+    position: relative;
+    bottom: 260px;
+    left: 650px;
+}
+#i1{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    color: white; 
+    
+}
+i{
+    font-size: 35px;
+    padding: 05px;
+    position: relative;
+    top: 05px;
+}
+h1{
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+}
+.h1{
+    position: relative;
+    top: 40px;
+}
+h2{
+    border-bottom: 2px solid blue;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    right: 10px;
+    width: 230px;
+}
+button{
+    border: none;
+    background-color: blue;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    left: 90px;
+}

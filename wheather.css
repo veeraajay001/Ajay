@@ -1,0 +1,258 @@
+#par{
+    height: 600px;
+    width: 1200px;
+    background-color: aquamarine;
+}
+#sub1{
+    height: 100px;
+    width: 1200px;
+    background-color: blue;
+    position: relative;
+}
+#h3{
+    position: absolute;
+    left:500px;
+    top: 0px;
+    font-size: 30px;
+    color: white;
+    font-family: "inter";
+}
+#sub2{
+    height: 500px;
+    width: 1200px;
+    background-color: lightcyan;
+    
+   }
+#a{
+    height:500px;
+    width: 400px;
+    background-color: lightcyan;
+    float: left;
+    position: relative;
+}
+#b{
+    height:500px;
+    width: 800px;
+    background-color:lightcyan;
+    float: right;
+    position: relative;
+}
+#label{
+    font-size: 20px;
+    font-family: "inter";
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
+#input{
+    height: 50px;
+    width: 350px;
+    font-size: 15px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    border-radius: 10px;
+}
+#a1{
+    height: 50px;
+    width: 350px;
+    background-color: blue;
+    border-radius: 10px;
+    position: absolute;
+    left: 20px;
+    top: 90px;
+    color: white;
+}
+#p1{
+    font-family: "inter";
+}
+#a2{
+    height: 3px;
+    width:170px;
+    background-color: lightgray;
+    position: absolute;
+    left: 20px;
+    top: 150px;
+}
+#a3{
+    height: 3px;
+    width:160px;
+    background-color: lightgray;
+    position: absolute;
+    left: 210px;
+    top: 150px;
+}
+#p3{
+    position: absolute;
+    top: 125px;
+    left: 193px;
+    font-family: "inter";
+}
+#a4{
+    height: 50px;
+    width: 350px;
+    background-color: darkgray;
+    border-radius: 10px;
+    position: absolute;
+    left: 20px;
+    top: 170px;
+}
+#p5{
+    color: white;
+    font-family: "inter";
+}
+#b1{
+    height: 150px;
+    width:750px;
+    background-color: blue;
+    border-radius: 10px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+#b11{
+    height:150px;
+    width: 200px;
+    background-color: blue;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+}
+#p6{
+    font-family: "inter";
+    color: white;
+   font-size: 18px;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+#p7{
+    font-family: "inter";
+    color: white;
+   font-size: 15px;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+#p8{
+    font-family: "inter";
+    color: white;
+   font-size: 15px;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+}
+#p9{
+    font-family: "inter";
+    color: white;
+   font-size: 15px;
+    position: absolute;
+    left: 10px;
+    top: 90px;
+}
+#b12{
+    height:150px;
+    width: 200px;
+    background-color: blue;
+    float: right;
+    position: relative;
+    border-radius: 10px;
+}
+#img{
+    height: 100px;
+    width: 150px;
+}
+#para{
+    font-family: "inter";
+    color: white;
+}
+#b2{
+    height:250px;
+    width:750px;
+    background-color:lightcyan;
+    border-radius: 10px;
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
+#day{
+    font-family: "inter";
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+}
+#b21{
+    height: 200px;
+    width: 150px;
+    background-color: darkgray;
+   position: absolute;
+   left: 20px;
+   top: 30px;
+   border-radius: 10px;
+}
+#b22{
+    height: 200px;
+    width: 150px;
+    background-color: darkgray;
+   position: absolute;
+   left: 200px;
+   top: 30px;
+   border-radius: 10px;
+}
+#b23{
+    height: 200px;
+    width: 150px;
+    background-color: darkgray;
+   position: absolute;
+   left: 380px;
+   top: 30px;
+   border-radius: 10px;
+}
+#b24{
+    height: 200px;
+    width: 150px;
+    background-color: darkgray;
+   position: absolute;
+   left: 560px;
+   top: 30px;
+   border-radius: 10px;
+}
+#date1{
+    font-family: "inter";
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
+#img1{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+#p10{
+    font-family: "inter";
+    color: #ffffff;
+   font-size: 14px;
+    position: absolute;
+    left: 10px;
+    top: 90px;
+}
+#p11{
+    font-family: "inter";
+    color: white;
+   font-size: 15px;
+    position: absolute;
+    left: 10px;
+    top: 120px;
+}
+#p12{
+    font-family: "inter";
+    color: white;
+   font-size: 15px;
+    position: absolute;
+    left: 10px;
+    top: 150px;
+}
