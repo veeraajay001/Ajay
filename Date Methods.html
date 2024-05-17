@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DATE METHODS</h1>
+    <script type="text/javascript">
+        const R=new Date();
+        document.write(R+"</br>");
+        document.write("Current Day is:"+R.getDay()+"</br>");
+        document.write("Current Month is:"+R.getMonth()+"</br>");
+        document.write("Current Date is:"+R.getDate()+"</br>");
+        document.write("Current Year is:"+R.getFullYear()+"</br>");
+        document.write("Current Hour is:"+R.getHours()+"</br>");
+        document.write("Current Minutes is:"+R.getMinutes()+"</br>");
+        document.write("Current Seconds is:"+R.getSeconds()+"</br>");
+        const weekday=["Sunday","Monday","Tuesday","Thursday","Friday","Saturday"];
+        let day=weekday[R.getDay()];
+        document.write("Current day is:"+day)
+    </script>
+</body>
+</html>
+

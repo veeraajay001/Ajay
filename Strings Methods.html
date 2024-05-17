@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods in JS</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function StrMethods(str_name){
+         document.write('<br>'+str_name+'<br>');
+        }
+        //declare strings 
+        let str='drive ready batch';
+        //let str=new String('drive ready');
+        //print original string value
+        StrMethods('original String='+str);
+        //to find out the length of string 
+        StrMethods('String length='+str.length);
+        //to find out the value in the particular position
+        StrMethods('Char At='+str.charAt(5));
+        //to find the index of particular value in string 
+        StrMethods('Index Of string ='+str.indexOf('y'));
+        StrMethods('Index of string 2nd way='+str.indexOf('ready'))
+        StrMethods('Last Index of string='+str.lastIndexOf('e'));
+
+    let str1='DRIVE READY'
+    let str2='mern batch';
+    let str3='new batch';
+        //to convert into lowercase
+        StrMethods('lower case of string='+str1.toLowerCase());
+        StrMethods('upper case of string='+str.toUpperCase());
+        //to add multiple strings 
+        StrMethods('concatenation of string='+str.concat(str2));
+        StrMethods('concatenation of string-2='+str.concat(str2,str3));
+        //to remove front and back spaces of a string
+        StrMethods('trim of string='+str.trim());
+        //convert string into array 
+        console.log(str.split(""));
+    let newstr='uday&kiran&kumar';
+        console.log(newstr.split("&"));
+
+    //return boolean value 
+    //if the given element is located in the string,it returns true 
+    StrMethods('startwith of string='+str.startsWith('d'));
+    StrMethods('endwith of string='+str.endsWith('y'));
+
+
+
+
+
+    </script>
+</body>
+</html>

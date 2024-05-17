@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Array Methods </h1>
+    <h5>In Console</h5>
+    <script>
+        const arr=['Apple','bananna','Carrot','parrot','Birds']
+        console.log(arr)
+        //push()
+        arr.push('Animal');
+        console.log(arr)
+        //pop()
+        arr.pop();
+        console.log(arr)
+        //unshift()
+        arr.unshift('Raju');
+        console.log(arr);
+        //concat()
+        const a=['Ajay','Swamy', 'bahdra','veerendra','chaitu']
+        let combine=a.concat(arr);
+        console.log(combine)
+        //slice()
+        const b=a.slice(1,11);
+        console.log(b)
+        //splice()
+        let c=arr.splice(3,5);
+        console.log(arr)
+        //indexof()
+        d=a.indexOf("Ajay");
+        console.log(d)
+        //sort()
+        R=a.sort()
+        console.log(R)
+    </script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <h1 id="e_id">AJAY,SWAMY,BHADRA,VEERENDRA</h1>
+    <h1 class="sp">This is span1</h1>
+    <h1 class="sp"> This is span2</h1>
+    <p>THIS IS PARA 1</p>
+    <p>THIS IS PARA 2</p>
+    <p>THIS IS PARA  3</p>
+    <p id="head">THIS IS PARA 1</p>
+    <p id="head">THIS IS PARA 2</p>
+    <p id="head">THIS IS PARA  3</p>
+    <p class="new">hi</p>
+    <p class="new">hello</p>
+    <p>bye</p>
+    <span>this is span tag</span>
+    <span>this is span tag1</span>
+    <h2 id="dis_dt"></h2>
+    <ul>
+        <li>AEC</li>
+        <li>ACET</li>
+        <li>ACOE</li>
+    </ul>
+    <a id="my_Anchor">click here</a>
+    <div class="h"></div>
+    <script>
+        const id=document.getElementById("e_id");
+        id.style.color='darkblue    '
+        id.style.fontStyle="italic"
+        id.style.fontFamily="cursive"
+        console.log(document) 
+        //by using classname 
+        const ClsID= document.getElementsByClassName('sp');
+        ClsID[0].style.color='yellowgreen';
+        ClsID[1].style.fontFamily="cursive"
+        console.log(ClsID)
+        //by using Tagname
+        const Tagnm=document.getElementsByTagName('p')
+        Tagnm[0].style.color='White'
+        Tagnm[1].style.fontStyle="italic"
+        Tagnm[2].style.fontFamily="cursive"
+        //chaning list elements
+        const A=document.getElementsByTagName("li");
+       A[0].innerText="Aditya Engineering College";
+       A[1].innerText="Aditya Engineering College & Technology";
+       A[2].innerText="Aditya College Of Engineering";
+       A[0].style.fontWeight="bold"
+       A[1].style.fontWeight="bold"
+       A[2].style.fontWeight="bold"
+       A[0].style.backgroundColor='gray'
+       A[1].style.border="1px solid red"
+       A[2].style.fontFamily='cursive'
+       console.log(A)
+       //QUERY SELECTOR
+       document.querySelector('p').style.backgroundColor='blue'
+       document.querySelector('.sp').style.backgroundColor='red'
+       document.querySelector('#e_id').style.backgroundColor='green'
+       //QUERY SELECTOR ALL
+        let heads=document.querySelectorAll('#head');
+       console.log(heads)
+       heads[0].style.backgroundColor='gold'
+       heads[1].style.backgroundColor='purple'
+       heads[2].style.backgroundColor='darkgreen'
+       //by using class name
+       let local=document.querySelectorAll('.new');
+       local[0].style.fontFamily='cursive'
+       local[1].style.fontSize='30px'
+       //by using tag name
+       let element=document.querySelectorAll('span');
+       console.log(element)
+       element[0].style.fontSize='30px'
+       element[1].style.fontSize='60px'
+       //by using id,class,tagname
+       let all=document.querySelectorAll('#head,.new,span');
+       console.log(all)
+       const NodeList=document.querySelectorAll('#head,.new,span');
+       for (let i=0;i<NodeList.length;i++){
+        if(i==3){
+           continue;
+        }
+        NodeList[i].style.backgroundColor='aqua'
+       }
+       //by using set attribute
+       const MyAnch=document.getElementById('my_Anchor');
+       MyAnch.setAttribute('href','https://youtube.com')
+       MyAnch.setAttribute('target','_blank')
+       //create element
+       const NewBtn=document.createElement('button');
+       NewBtn.setAttribute('id','btn_id');
+       NewBtn.innerText='click me'
+       const NewDiv=document.createElement('div');
+       NewDiv.innerHTML=`<h1>New division</h1>`
+       NewDiv.style.cssText=`height:200px;
+                            width:200px;
+                            color:aqua;
+                            padding:5px;
+                            background-color:Darkblue;
+                            border-radius:20px;
+                            box-shadow:3px 3px 3px 3px gold;`;
+        //appen element
+        const bdy=document.body
+        //console.log(bdy)
+        bdy.appendChild(NewBtn)
+        bdy.appendChild(NewDiv)
+        //eventListner
+        const mybtn=document.getElementById('btn_id');
+        mybtn.addEventListener("mouseover",MyFucn1)
+        mybtn.addEventListener("mouseout",MyFucn2)
+        mybtn.addEventListener('click',MyFucn3)
+        function MyFucn1(){
+            NewDiv.style.backgroundColor="green"
+        }
+        function MyFucn2(){
+            bdy.style.backgroundColor="Skyblue"
+        }
+        function  MyFucn3(){
+           const disp_dt=document.getElementById('dis_dt')
+           disp_dt.innerHTML="Today Date is:"+Date(); 
+        }
+    </script>
+</body>
+</html>

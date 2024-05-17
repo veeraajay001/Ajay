@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table cellpadding="2" border="100px"  width="50%" >
+            <tr>
+                <th>course name</th>
+                <th width="20%">course number</th>
+                <th width="12%">course fee</th>
+                <th width="12%">course place</th>
+            </tr>
+            <tbody id="tableData"></tbody>
+        </table>
+        <script type="text/javascript">
+            var Obj = [
+                {
+                    name: "Html",
+                    Number:24323,
+                   fee:253,
+                   place:'pwd'
+                },
+                {
+                    name: "css",
+                    Number:65687,
+                   fee:567,
+                   place:'pwd'
+                },
+                {
+                    name: "css",
+                    Number:65687,
+                   fee:567,
+                   place:'pwd'
+                },
+                {
+                    name: "css",
+                    Number:65687,
+                   fee:567,
+                   place:'pwd'
+                },
+                {
+                    name: "JavaScript",
+                    Number:65645,
+                   fee:567,
+                   place:'pwd'
+                }
+            ];
+            var k = '<tbody>'
+            for(i = 0;i < Obj.length; i++){
+                k+= '<tr>';
+                k+= '<td>' + Obj[i].name + '</td>';
+                k+= '<td>' + Obj[i].Number + '</td>';
+                k+= '<td>' + Obj[i].fee + '</td>';
+                k+= '<td>' + Obj[i].place+ '</td>';
+                k+= '</tr>';
+            }
+            k+='</tbody>';
+            document.getElementById('tableData').innerHTML = k;
+            </script>
+</body>
+</html>

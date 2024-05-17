@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task on DOM</title>
+</head>
+<body>
+   <img id="img" src="D:\FSD\Javascript\Operators\profile.jpg   ">
+   <button onclick="fun()">hello</button>
+   <table border="" width="100%">
+    <tr>
+        <th>Name</th>
+        <th>Pin</th>
+        <th>Branch</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        
+    </tr>
+</table>
+
+   <script type="text/javascript">
+    function fun(){
+        document.getElementById('img').src="R copy.jpg";
+
+    }
+    //     const A=document.getElementsByTagName('td')
+    //     console.log(A)
+    //     for(let i=1;i<A.length+1;i++){
+    //         for(let i=1;i<A.length+1;i++){
+    //         A[i].style.backgroundColor="red"
+    //         A[i-1].innerText=i;
+    //     }   
+    // }
+        const a= document.getElementsByTagName('td');
+        const arr=['raju','2123y','ccn','veerendra','123','cme','bhadra','123456','cse']
+        const color=['gray','orange','green','blue','red','gray','orange','green','blue','red']
+        for(i=0;i<a.length;i++){
+        a[i].innerText=arr[i];
+        a[i].style.backgroundColor=color[i];
+        a[i].style.color="white";
+       }
+
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Some ()</h1>
+    <script>
+        //arrow function
+        let trainees=['chaithanya','lohit','charan','pramod','swamy','datta','Chaithanya','Ajay'];
+        let name_check=trainees.some((name,i,arr)=>{
+            return name=='Chaithanya';
+        })
+        console.log(name_check)
+        //anynonmous function
+        let name=trainees.some(function(name,i,arr){
+            return name=='pramod';
+        })
+        console.log(name)
+    </script>
+</body>
+</html>

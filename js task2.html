@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>count is:<span id="id"></span></p>
+<button onclick="MyFucn1()">Increment</button>
+<button onclick="MyFucn2()">decrement</button>
+<script>
+        function MyFucn1(){
+          A=Number (document.getElementById('id').innerHTML);
+          let  b=A+1
+          document.getElementById('id').innerHTML=parseInt(b)
+        }
+        function MyFucn2(){
+          A=Number (document.getElementById('id').innerHTML);
+          let  b=A-1
+          document.getElementById('id').innerHTML=parseInt(b)
+        }
+</script>
+</body>
+</html>
