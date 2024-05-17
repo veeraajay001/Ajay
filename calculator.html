@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="display-screen" style="float:left">
+                <table>
+                <tr>
+                    <td> <div class="display"></div></td>
+                   <td><button class="btn-operation" id="clear">C</button></div></table></td>
+                </tr>
+                <div class="buttons"  >
+                    <table border="" >
+                        <tr >
+                            <td><button class="btn-number" id="1">1</button></td> 
+                            <td><button class="btn-number" id="2">2</button></td>
+                            <td><button class="btn-number" id="3">3</button></td>
+                            <td><button class="btn-operation" id="\">&divide;</td>
+                        </tr>
+                        <tr >
+                            <td><button class="btn-number" id="4">4</button></td> 
+                            <td><button class="btn-number" id="5">5</button></td>
+                            <td><button class="btn-number" id="6">6</button></td>
+                            <td><button class="btn-operation" id="*">&times;</td>
+                        </tr>
+                        <tr >
+                            <td><button class="btn-number" id="7">7</button></td> 
+                            <td><button class="btn-number" id="8">8</button></td>
+                            <td><button class="btn-number" id="9">9</button></td>
+                            <td><button class="btn-operation" id="-">&minus;</td>
+                            
+                        </tr>
+                        <tr>
+                            <td><button class="btn-operation" id="0">0</button></td> 
+                            <td><button class="btn-operation" id=".">&dot;</button></td>
+                            <td><button class="btn-operation" id="equal">&equals;</button></td>
+                            <td><button class="btn-operation" id="+">&plus;</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const display=document.querySelector(".display")
+
+        const buttons=document.querySelectorAll("button")
+
+        buttons.forEach((item)=>{
+            item.onclick= ()=>{
+                if(item.id=='clear'){
+                    display.innerText=" ";
+                }
+                else if(display.innerText!='' && item.id == 'equal'){
+                    display.innerText = eval(display.innerText)
+                }
+            else if(display.innerText=='' && item.id=='equal'){
+                    display.innerText = 'Enter numbers'
+                    setTimeout(()=>(display.innerText=''), 2000)
+                }
+                else{
+                    display.innerText+= item.id
+                }
+            }
+        })
+    </script>
+</body>
+</html>

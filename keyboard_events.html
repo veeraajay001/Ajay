@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+    <p id="b"></p>
+    <label for="">keyup</label>
+    <input type="text" name="" onkeyup="fun(this.value)" >
+    <label for="">keypress</label>
+    <input type="text" name="" onkeypress="fun(this.value)" >
+    <label for="">keydown</label>
+    <input type="text" name="" onkeydown="fun(this.value)" >
+    <script>
+        // const a=document.getElementById('id')
+        // a.addEventListener("keyup",sample)
+        function fun(value){
+            const a=document.getElementById('b').innerText=value;
+            
+        }
+
+    </script>
+</body>
+</html>

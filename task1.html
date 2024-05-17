@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Enter name</label>
+    <input type="text" id="id" autofocus>
+    <p id="sid"></p>
+    <p id="b"></p>
+    <button onclick="fun()">click</button><br><br>
+    <label >Password:</label>
+    <input type="password" id="id1">
+    <button onclick="fun1()">password</button><br>
+    <p id="d"></p>
+    <label >Conform Password:</label>
+    <input type="password" id="id2">
+    <button onclick="fun2()">Confirm</button>
+    <p id="do"></p>
+    <script>
+        function fun(){
+            let name=document.getElementById('id').value;
+           let  n=name.length;
+            if(n==0){
+                document.getElementById('sid').innerText="please enter anything";
+                document.getElementById('sid').style.color="red";
+            }
+            else{
+                document.getElementById('b').innerText=name;
+            }
+        }
+        function fun1(){
+            let pass=document.getElementById('id1').value;
+           let p=pass.length;
+            if(p<8){
+                document.getElementById('d').innerText='Please,Enter minimum 8 characters..';
+                document.getElementById('d').style.color="red";
+            }
+            else{
+                document.getElementById('d').innerText='';
+            }
+        }
+        function fun2(){
+            let pass1=document.getElementById('id1').value;
+            let pass2=document.getElementById('id2').value;
+            if(pass1!=pass2){
+                document.getElementById('do').innerText='check your password and try again...';
+                document.getElementById('do').style.color="red";
+            }
+            else{
+                document.getElementById('do').innerText='';
+                alert('sucessful completed')
+            }
+            // if(pass1==pass2){
+            //     alert('sucessful completed')
+            // }
+        }
+    </script>
+</body>
+</html>

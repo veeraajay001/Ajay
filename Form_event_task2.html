@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h2>enter hexacolor value to change background</h2>
+      <input type="text" placeholder="enter color" id="color_id" onkeyup="color()" >
+      <br>
+      <span id="sp_id"></span> 
+      <script>
+        function color(){
+            let getcolor=document.getElementById('color_id').value;
+            document.getElementById('sp_id').innertext=getcolor;
+            document.body.style.backgroundColor=getcolor;
+        }
+      </script>
+</body>
+</html>

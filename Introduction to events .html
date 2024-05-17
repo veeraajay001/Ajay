@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="sample1()">click here</button><br>
+    <button onclick="sample()">click here</button><br>
+    <b id="sp"></b>
+    <button id="btn">clic here</button>
+    <script>
+        // first way inline 
+        function sample1(){
+            document.body.style.backgroundColor='blue'
+            document.body.style.color='white'
+            document.getElementById('sp').innerText=' this is the onmouseover in events js'
+
+        }   
+        </script>
+        <script>
+        // 2nd way (by using event properties in js)
+        let btn=document.getElementById('btn');
+        btn.onclick=change;
+        function change(){
+            document.body.style.background='darkgreen'
+        }
+        </script> 
+        <script>
+        // 3rd way(by using event properties in js)
+        let btn=document.getElementById('btn');
+        btn.addEventListener('click',sample);
+        function sample(){
+            document.body.style.backgroundColor='lightgreen'
+        }
+
+    </script>
+</body>
+</html>

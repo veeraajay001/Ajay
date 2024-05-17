@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="funname()">click</button><br>
+    <input type="text"id="b" autofocus>
+    <p id="b"></p>
+    <p></p>
+     <button onclick="getname()">submit</button> 
+    <button onclick="ajay()">submit</button> 
+    <script>
+        // //function with no parameters
+        function funname(){
+            alert('executed')
+        }
+        funname()
+        // // function with one parameter
+        // getname('babai')
+        function getname(){
+            let name=document.getElementById('b').value;
+        
+            alert(name)
+        }
+        function ajay(){
+            let name=document.getElementsByTagName("p");
+            alert(name)
+        }
+            //function with two arguments
+                add(10,20)                                          
+                function add(a,b){
+                    console.log(a+b)
+                    // document.write(a+b)
+                }
+                //arrow function
+                const addition=(a,b,c)=>{
+                    console.log(a+b+c)
+                }
+                add(20,' Ajay')
+                const addname=(a,b)=>{
+                    console.log(a+""+b)
+                }
+                add('Hari','Kiran')
+                add(0,true);
+                add(true,false)
+                add(true,true)
+                add(true,"false")
+                add(false,0)
+                add(false,"truefalse")
+                add(true,1,"10")
+                setTimeout(() => {
+                    console.log('After 3 seconds');
+                }, 3000);
+                setTimeout(test,10000)  
+        function test(){
+            console.log('After 10 seconds');
+        }
+        let trainee=['ajay','raju','babai','lokesh'];
+        console.log(trainee)
+        trainee.push('Veerendra');
+        console.log(trainee)
+        trainee.pop('veera');
+        console.log(trainee)
+        trainee.shift();
+        console.log(trainee)
+        trainee.unshift();
+</script>
+</body>
+</html>

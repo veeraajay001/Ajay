@@ -1,0 +1,29 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body><form>
+        <label for="">Enter name</label>
+        <input type="text" name="" onkeyup="fun(this.value)" autofocus>
+        </form>
+        <p id="b" ></p>
+        <p id="a"></p>
+        <script>
+            function fun(value){
+                const v=value.length
+                document.getElementById('a').innerText='the entered letters '+v
+            if(v<3){
+                document.getElementById('b').innerText='enter atleast 3 letters';
+                document.getElementById('b').style.color="red";
+                
+            }
+            else{
+            document.getElementById('b').innerText='';  
+            }
+        }
+        </script>
+    </body>
+    </html>

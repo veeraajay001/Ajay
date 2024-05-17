@@ -1,0 +1,33 @@
+body{
+    background-color: snow;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+button{
+    height: 70px;
+    width: 100px;
+    cursor: pointer;
+    border: 0;
+}
+.calculator{
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+.display{
+    height: 70px;
+    width: 315px;
+    font-size: 30px;
+    border: 1px solid black;
+}
+.btn-number{
+    background-color: green;
+    color: white;
+}
+.btn-operation{
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myfunction()">click</button>
+    <p id="displaytable"></p>
+    <script>
+//         function myfunction()
+// {
+//     if (document.getElementById("displaytable").style.display === "none")
+//         document.getElementById("displaytable").style.display="block";
+//     else
+//         document.getElementById("displaytable").style.display="none";
+// }
+var tbodyRef = document.getElementById('myTable').getElementsByTagName('tbody')[0];
+                var newRow = tbodyRef.insertRow();
+                // Insert a cell at the end of the row
+                var newCell = newRow.insertCell();
+
+                // Append a text node to the cell
+                var newText = document.createTextNode('new row');
+                newCell.appendChild(newText)
+    </script>
+</body>
+</html>
