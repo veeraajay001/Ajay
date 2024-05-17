@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <center> <h1>All Data Types in JS</h1></center>
+   <hr>
+    <h3 id="demo"></h3>
+    <h4 id="d"></h4>
+    <script>
+        //strings
+        let A="AJAY";
+        document.getElementById('demo').innerHTML='Text:'+A;
+        document.getElementById('d').innerHTML='Data Type: '+ typeof(A)
+        //number
+        let B=16;
+        document.write('Number: '+B+"</br>");
+        document.write('Data Type: '+ typeof(B)+"</br></br>");
+        //bigInt
+        let x = BigInt("123456789012345678901234567890");
+        document.write("Number :-"+x+"</br>");
+        document.write("DataType:-"+typeof(x)+"</br></br>");
+        //boolean
+        let u= true;
+        document.write('Value: '+u+"</br>");
+        document.write('Data Type: '+ typeof(u)+"</br></br>");
+        //object 
+        const person = { 
+                       firstName : " Veera Ajay Kumar",
+                       lastName  : "Adapa",
+                       age : 19
+                       };
+        document.write("GivenData:-</br>")
+        document.write("FirstName:-"+person.firstName+"</br>");
+        document.write("LastName:-"+person.lastName+"</br>");
+        document.write("Age   :-"+person.age+"</br>");
+        document.write("DataType:-"+typeof(person)+"</br></br>");
+        //Array
+        const cars = ["Saab","Volvo","BMW","BenZ","Royal Roce"];
+        document.write( cars[4]+'<br>');
+        document.write('Data Type: '+ typeof(cars)+"</br></br>");
+        //null
+        let F=null;
+        document.write('Value: '+F+"</br>");
+        document.write('Data Type: '+ typeof(F)+"</br></br>");
+    </script>
+</body>
+</html>

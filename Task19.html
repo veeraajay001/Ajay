@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ballon</title>
+</head>
+<body>
+    <h1>Ballon Task</h1>
+    <!-- <button onmouseover="Ballon()" onmouseleave="ballon1()"> Hover</button> -->
+    <img id="img" src="ballon.jpg" width="200px" height="200px" onmouseover="Ballon()" onmouseleave="ballon1()" >
+    <script>
+        function Ballon(){
+            document.getElementById('img').src="ballon1.jpg"
+        }
+        function ballon1(){
+            document.getElementById('img').src="ballon.jpg"
+        }
+    </script>
+</body>
+</html>

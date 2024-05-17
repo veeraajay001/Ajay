@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="Task18.css">
+</head>
+<body>
+    <div id="div1">
+        <h1><b>Form Validation</b></h1>
+        <label id="label"><b>Name:(8-20characters)</b></label><br>
+        <input type="text" id="inid">
+        <p id="pid"></p>
+        <label  id="ide"><b>Email  :</b></label><br>
+        <input type="email" id="eid">
+        <p id="pid1"></p>
+        <label id="label"><b>Phone Number: (10 digits)</b></label><br>
+        <input type="text" id="nid">
+        <p id="pid2"></p>
+        <label id="ide"><b>Password:</b></label>
+        <input type="password" id="paid">
+        <p id="pid3"></p>
+        <label id="ide"><b>Gender:</b></label><br>
+        <input type="radio"  id="gender" name="gender" value="">
+        <label id="id1">Male</label>
+        <input type="radio" id="gender" name="gender" value="">
+        <label id="id2">Female</label>
+        <p id="pid4"></p>
+        <label id="ide"> Courses</label><br>
+        <input type="checkbox"   name="gender" value="">
+        <label id="id1">HTML</label><br>
+        <input type="checkbox"  name="gender" value="">
+        <label id="id2">CSS</label><br>
+        <input type="checkbox"   name="gender" value="">
+        <label id="id1">JAVASCRIPT</label><br>
+        <input type="checkbox"  name="gender" value="">
+        <label id="id2">REACT JS</label><br>
+        <input type="checkbox"   name="gender" value="">
+        <label id="id1">MONGO DB</label><br>
+        <input type="checkbox"  name="gender" value="">
+        <label id="id2">NODE JS</label><br>
+        <input type="button" onclick="Fun()" id="sub" value="Submit">
+    </div>
+    <script>
+        function Fun(){
+            //name
+            let inpid=document.getElementById('inid').value;
+            console.log(inpid)
+            if(inpid.length<8){
+                document.getElementById('pid').style.color="red";
+                document.getElementById('pid').innerHTML="Name should more than 8 Characters"
+            }
+            else{
+                document.getElementById('pid').innerHTML=" "
+            }
+            //email
+            let eid=document.getElementById('eid').value;
+            console.log(eid)
+            if(eid.length==0){
+                document.getElementById('pid1').style.color="red";
+                document.getElementById('pid1').innerHTML="Enter Email ";
+            }
+            for(let i=0;i<eid.length;i++){
+                if(eid[i]=='@'){
+                    document.getElementById('pid1').innerHTML=" ";
+                }
+                else{
+                    document.getElementById('pid1').style.color="red";
+                    document.getElementById('pid1').innerHTML="Email should contain '@' symbol"
+                }
+            }
+            //phone
+            let pho=document.getElementById('nid').value;
+            console.log(pho)
+            if(pho.length!=10){
+                document.getElementById('pid2').style.color="red";
+                document.getElementById('pid2').innerHTML="Number should be 10 digits"
+            }
+            else{
+                document.getElementById('pid2').innerHTML=" ";
+            }
+            let pass=document.getElementById('paid').value;
+            console.log(pass)
+            for(let k=0;k<pass.length;k++){
+
+            }
+            let gen=document.getElementById('gender').value;
+            if(gen.length<=0){
+                document.getElementById('pid4').style.color="red";
+                document.getElementById('pid4').innerHTML="please select your gender"
+            }
+            else{
+                document.getElementById('pid4').innerHTML=""
+            }
+        }
+    </script>
+</body>
+</html>

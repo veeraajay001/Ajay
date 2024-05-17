@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="Task17.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="image fade">
+            <img src="Dhoni.jpg" >
+        </div>
+        <div class="image fade">
+            <img src="Virat.jpg" >
+        </div>
+        <div class="image fade">
+            <img src="Rohit.jpg" >
+        </div>
+    </div>
+    <br>
+    <div >
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+    <script>
+    let Index = 0;
+    Slides();
+    
+    function Slides() {
+      let i;
+      let slide = document.getElementsByClassName("image");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slide.length; i++) {
+        slide[i].style.display = "none";  
+      }
+      Index++;
+      if (Index > slide.length){
+        Index = 1
+    }    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slide[Index-1].style.display = "block";  
+      dots[Index-1].className += " active";
+      setTimeout(Slides, 2000); // Change image every 2 seconds
+    }
+    </script>
+    
+</body>
+</html>

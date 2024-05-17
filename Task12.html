@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task12</title>
+</head>
+<body>
+    <h1>Click The Below Buttons To Display Data</h1>
+    <button onclick="Acet()">ACET</button>
+    <button onclick="AEC()">AEC</button>
+    <button onclick="Acoe()">ACOE</button>
+    <script>
+        let arr=[
+            {
+                pin:101,
+                college:"ACET",
+                name:'Ajay',
+            },
+            {
+                pin:102,
+                college:"AEC",
+                name:'swamy'
+            },
+            {
+                pin:103,
+                college:"ACET",
+                name:'Raju'
+            },
+            {
+                pin:104,
+                college:"ACOE",
+                name:'Hari'
+            },
+            {
+                pin:105,
+                college:"ACET",
+                name:'Pradeep'
+            }
+        ];
+        console.log(arr)
+        function Acet(){
+        let record1=arr.filter(function(val,i,array){
+            // console.log(i)
+            // console.log(val)
+            return val.college=="ACET"
+            // if(val.college == "ACET"){
+            //     return val[i];
+            // }
+        })
+        for(let i=0;i<record1.length;i++){
+            document.write("Record "+i+"</br>")
+            document.write('Name:'+record1[i].name+"</br>")
+            document.write("Pin:"+record1[i].pin+"</br>")
+            document.write('College:'+record1[i].college+"</br>")
+        }
+    }
+    function AEC(){
+        let record1=arr.filter(function(val,i,array){
+            // console.log(i)
+            // console.log(val)
+            return val.college=="AEC"
+            // if(val.college == "ACET"){
+            //     return val[i];
+            // }
+        })
+        for(let i=0;i<record1.length;i++){
+            document.write("Record "+i+"</br>")
+            document.write('Name:'+record1[i].name+"</br>")
+            document.write("Pin:"+record1[i].pin+"</br>")
+            document.write('college:'+record1[i].college+"</br>")
+        }
+    }function Acoe(){
+        let record1=arr.filter(function(val,i,array){
+            // console.log(i)
+            // console.log(val)
+            return val.college=="ACOE"
+            // if(val.college == "ACET"){
+            //     return val[i];
+            // }
+        })
+        for(let i=0;i<record1.length;i++){
+            document.write("Record "+i+"</br>")
+            document.write('Name:'+record1[i].name+"</br>")
+            document.write("Pin:"+record1[i].pin+"</br>")
+            document.write('college:'+record1[i].college+"</br>")
+        }
+    }
+    </script>
+</body>
+</html>

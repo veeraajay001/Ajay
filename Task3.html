@@ -3,66 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>string methods</title>
+    <title>Check undefined/null</title>
 </head>
 <body>
-    <h1>String Methods</h1>
-<script>
-    let str = "Apple, Banana,Guava";
-    document.write(str+"<br/>")
-    document.write("substr() method:"+str.substr(7,5)+"</br>")
-    document.write("substring() method:"+str.substring(0,5)+"</br>")
-    var text="ramesh"
-    document.write("before replace:"+text+"</br>")
-    document.write("replace() method:"+text.replace("ramesh","bye")+"</br>")
-    document.write(text+"</br>")
-    document.write("toLocalUpperCase() Method:"+text.toLocaleUpperCase()+"</br>")
-    var text1="SURESH"
-    document.write("text:"+text1+"</br>")
-    document.write("toLocalLowerCase() Method:"+text1.toLocaleLowerCase()+"</br>")
-    document.write("indexof() Banana is:"+str.indexOf("Banana")+"</br>")
-    var text2 = "Hello world";
-    document.write("text:"+text2+"</br>")
-    document.write("includes() method:"+text2.includes("Hello")+"</br>")
-    document.write("slice() method:"+str.slice(15,21)+"</br>")
-    let text3 = "Hello";
-    let text4 = "World!";
-    document.write(text3+"</br>")
-    document.write(text4+"</br>")
-    document.write("concat() method:"+text3.concat(text4)+"</br>")
-    document.write("lastIndexOfMethod():"+str.lastIndexOf("carrot")+"</br>")
-    document.write(text3+"</br>")
-    document.write("charAt() Method:"+text3.charAt(0)+"<br/>")
-    document.write("charCodeAt() Method unique code:"+text3.charCodeAt(1)+"<br/>")
-    let text5 = "     Hello World!     ";
-    document.write(text5+"</br>")
-    document.write("before trim length:"+text5.length+"</br>")
-    document.write("trim() method:"+text5.trim()+"</br>")
-    var text6=text5.trim()
-    document.write("after trim length:"+text6.length+"</br>")
-    document.write("value of() method:"+text.valueOf()+"</br>")
-    let text7= "Hello";
-    document.write("before split:"+text7+"</br>")
-    const myArr = text7.split("");
-    text7 = "";
-    for (let i = 0; i < myArr.length; i++) {
-    text7 += myArr[i] + "<br>"
-    }
-    document.write("after using split() method:<br/>"+text7+"</br>")
-    var a=10
-    document.write("number:"+a+"</br>")
-    document.write("toString() Method return as string value:"+a.toString()+"</br>")
-    var text8 = "hello word";
-    document.write("value:"+text8+"</br>")
-    let result = text8.match("ello");
-    document.write("match() shows matches value:"+result)
-
-
-
-
-
-
-
-</script>
+    <h1>Check Wheather given number is Undefined or Null</h1>
+    <script>
+        let a="Ajay";
+        check(a);
+        let b;
+        check(b);
+        let c=null;
+        check(c);
+        function check(value){
+            if(value==null){
+                document.write("The Value Is NULL </br>");
+                document.write(typeof(value)+"</br>")
+            }
+            else if(value==undefined){
+                document.write("The Value Is UNDEFINED </br>");
+            }
+            else{
+                document.write("The value is not undefined and not null </br>");
+            }
+        }
+    </script>
 </body>
 </html>

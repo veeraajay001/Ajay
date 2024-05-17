@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-3</title>
+</head>
+<body>
+    
+    <label>Enter name</label>
+    <input type="text" id="id" autofocus>
+    <button onclick="fun1()">click</button><br><br>
+    <p id="sid"></p>
+    <script>
+        let students=["ajay","swamy","satya","bhadrarao",'chaitu','teja'];
+        
+        function fun1(){
+        let getName=students.some(fun)
+        function fun(nam,index,i){
+            let name=document.getElementById('id').value;
+            //for(let i=0;i<students.length;i++){
+                return nam==name;
+            //}
+        }
+        console.log(getName)
+        
+        if(getName==true){
+            let pid=document.getElementById('sid');
+            document.getElementById('sid').innerText="Name Already exist.."
+            pid.style.color="green";
+        }
+        else{
+            let pid=document.getElementById('sid');
+            document.getElementById('sid').innerText="Name Not Found"
+            pid.style.color="red";
+        }
+        
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <center> <h1>Using Arrow Function</h1></center>
+    <hr>
+    <h3>If we want to Multiply two numbers click below button</h3>
+    <button onclick="mul()">Multiplication</button>
+    <h3>If we want to division two numbers click below button</h3>
+    <button onclick="div()">Division</button>
+    <script>
+        //for division
+        function div(){
+        let a=parseInt(prompt('enter any number'));
+        let b=parseInt(prompt('enter any number')); 
+        let ans = (a,b) => a/b; 
+        alert("After division : " +  ans(a,b));
+        }
+        //for multplication
+        function mul(){
+        let c=parseInt(prompt('enter any number'));
+        let d=parseInt(prompt('enter any number'));
+        let e = (c,d) => c*d; 
+        alert("After multplication : " + e(c,d));
+        }
+    </script>
+</body>
+</html>

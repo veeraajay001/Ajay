@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><div style="height:300px; width: 300px; border:5px solid black ;">
+        <h1 style="color:red;"><center>Guess The Number Game</center></h1>
+        <h4 style="color :aqua; font-size: 20px;"><center>Guess a number between 0 to 10:</center></h4>
+      <input type="number" placeholder="enter number" id="inp"><button onclick="fun()" style="background-color: green;"> Submit Guess</button>
+        <p id="A"></p>
+    </div></center>
+    <script>
+          var R=Math.floor(Math.random()*11)
+        function fun(){
+            var A=document.getElementById('inp').value
+            // let R=b[Math.floor(Math.random()*10)]
+            if(A.length>0){
+            if(A==R){
+                document.getElementById('A').innerText="Congratulation your guessed number is"+' '+ R;
+                document.getElementById('A').style.color="green";
+            } 
+            else{
+                document.getElementById('A').innerText="Sorry! Try Again";
+                document.getElementById('A').style.color="red";
+            }}
+            else{
+                document.getElementById('A').innerText='enter a number';
+            }
+        }
+            
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>hello javascript!</h1>
+
+<button onclick="bulbon()" ondblclick="bulboff()">Bulb on/off</button>
+<img id="img" src="b1.jpg" width="200" height="200">
+
+<p>Click the button to turn on/off the light.</p>
+
+<script>
+function bulbon(){
+document.getElementById('img').src='b1.jpg';
+}
+function bulboff(){
+document.getElementById('img').src='b.png';
+}
+</script>
+
+</body>
+</html>

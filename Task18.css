@@ -1,0 +1,60 @@
+body{
+    background-color: whitesmoke;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 100px;
+}
+#div1{
+    height: 100%;
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+    position: relative;
+    left: 400px;
+    padding: 20px;
+}
+#inid{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+}
+#eid{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+}
+#nid{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+}
+#paid{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+}
+#sub{
+    width: 80%;
+    height: 50px;
+    border-radius: 20px;
+    position: relative;
+    left: 30px;
+    margin :10px;
+    border: none;
+    color:white;
+    background-color: green;
+}
+#label{
+    margin-right: 140px;
+}
+#ide{
+    margin-right: 250px;
+}
+#id1{
+    margin-right:100px;
+}
+#id2{
+    margin-right: 100px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task13</title>
+</head>
+<body>
+    
+    <label>Enter Email</label>
+    <input type="text" id="id" autofocus>
+    <button onclick="fun1()">click</button><br><br>
+    <p id="sid"></p>
+    <script>
+        let students=["ajayadapa@gmail.com","swamyanisetti161@gmail.com","satyasonu@gmail.com","bhadrarao@gmail.com"];
+        
+        function fun1(){
+        let value1=students.some(fun)
+        function fun(){
+            let name=document.getElementById('id').value;
+            for(let i=0;i<students.length;i++){ 
+                return students[i]==name;
+            }
+        }
+        console.log(value1)
+        if(value1==true){
+            let pid=document.getElementById('sid');
+            document.getElementById('sid').innerText="Email Already exist.."
+            pid.style.color="red";
+        }
+        if(value1==false){
+            let pid=document.getElementById('sid');
+            document.getElementById('sid').innerText="Yes Proceed...."
+            pid.style.color="green";
+        }
+    }
+    </script>
+</body>
+</html>

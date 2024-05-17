@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sum of even and odd in an array</title>
+</head>
+<body>
+    <h1>Sum of even and odd numbers in an array</h1>
+    <script>
+        let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        document.write("Given Array:</br>"+arr);
+        const sumodd = (arr) => {
+        let sum = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (i % 2 == 0){ 
+                sum = sum + arr[i];
+            }
+        }
+        return sum;
+        }
+        const sumEven = (arr) => {
+        let sum1 = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (i % 2 != 0){ 
+                sum1 = sum1 + arr[i];
+            }
+        }
+        return sum1;
+        }
+        document.write('</br> Sum Of Even:'+sumEven(arr));
+        document.write('</br> Sum of Odd:'+sumodd(arr));
+    </script>
+</body>
+</html>

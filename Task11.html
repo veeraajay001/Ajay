@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task11</title>
+</head>
+<body>
+    <h1>Click The Below Buttons To Display Data</h1>
+    <button onclick="ACET()">ACET</button>
+    <button onclick="AEC()">AEC</button>
+    <button onclick="ACOE()">ACOE</button>
+    <table width="100%" height="200px" border="2px" align="center">
+        <tr>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>PIN</th>
+            <th>College</th>
+        </tr>
+        <tbody id="head"></tbody>
+    </table>
+    
+    <script>
+        let arr=[{
+            name:"Raju",
+            Branch:"CME",
+            PIN:102,
+            college:"Acoe"        
+        },
+        {
+            name:"Ajay",
+            Branch:"CCN",
+            PIN:101,
+            college:"ACET"        
+        },{
+        name:"raju",
+            Branch:"CSE",
+            PIN:101,
+            college:"ACET"        
+        },
+        {
+            name:"Hema Siri",
+            Branch:"ECE",
+            PIN:103,
+            college:"AEC"
+        },
+        {
+            name:"Chaitu",
+            Branch:"ECE",
+            PIN:165,
+            college:"ACOE"
+        }]
+        function AEC(){
+        let data=arr.filter((element,index)=>{
+            return element.college=="AEC"
+        })
+        var a='<tbody>' 
+        for(i=0;i<data.length;i++){
+            a=a+='<tr>'
+            a=a+'<td>'+data[i].name +'</td>'
+            a=a+'<td>'+data[i].Branch +'</td>'
+            a=a+'<td>'+data[i].PIN +'</td>'
+            a=a+'<td>'+data[i].college +'</td>'
+            a=a+'</tr>'
+        }
+        a=a+'</tbody>';
+        document.getElementById('head').innerHTML=a;
+    }
+
+        function ACET(){
+        let data=arr.filter((element,index)=>{
+            return element.college=="ACET"
+        })
+        var a='<tbody>' 
+        for(i=0;i<data.length;i++){
+            a=a+='<tr>'
+            a=a+'<td>'+data[i].name +'</td>'
+            a=a+'<td>'+data[i].Branch +'</td>'
+            a=a+'<td>'+data[i].PIN +'</td>'
+            a=a+'<td>'+data[i].college +'</td>'
+            a=a+'</tr>'
+        }
+        a=a+'</tbody>';
+        document.getElementById('head').innerHTML=a;
+    } 
+        function ACOE(){
+        let data=arr.filter((element,index)=>{
+            return element.college=="ACOE"
+        })
+        var a='<tbody>' 
+        for(i=0;i<data.length;i++){
+            a=a+='<tr>'
+            a=a+'<td>'+data[i].name +'</td>'
+            a=a+'<td>'+data[i].Branch +'</td>'
+            a=a+'<td>'+data[i].PIN +'</td>'
+            a=a+'<td>'+data[i].college +'</td>'
+            a=a+'</tr>'
+        }
+        a=a+'</tbody>';
+        document.getElementById('head').innerHTML=a;
+    }
+    </script>
+
+</body>
+</html>
